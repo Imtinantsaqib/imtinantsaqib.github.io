@@ -1,0 +1,330 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Open+Sans&display=swap');
+
+/* My CSS style */
+
+/* font style */
+* {
+  font-family: 'mondserrat', sans-serif;
+}
+
+
+/* bacground */
+body {
+  font: 16px/28px 'open sans', sans-serif;
+  background-color: white;
+}
+
+/* end background */
+
+/* navbar */
+.navbar {
+  height: 51px;
+}
+
+.navbar .container a:hover {
+  color: white;
+}
+
+/* end navbar */
+
+/* main letter */
+.container {
+  width: 800px;
+  margin: auto;
+  background-color: white;
+}
+/* end main letter */
+
+/* format judul */
+.header {
+  padding: 20px;
+  padding-bottom: 10px;
+}
+
+.header .judul {
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 60px;
+}
+.header p {
+  font-size: 14px;
+  margin-top: -3px;
+  opacity: 90%;
+  margin-bottom: 10px;
+}
+/* end format judul */
+
+/* section gambar */
+.hero {
+  height: 360px;
+  background-image: url(img/pabrikasap.png);
+  background-size: cover;
+  background-position: 0 -20px;
+  border-bottom: 5px solid salmon;
+  border-left: 5px solid salmon;
+  border-right: 5px solid salmon;
+  border-top: 5px solid salmon;
+}
+
+/* end section gambar */
+
+/* auto typing */
+.code {
+  font-weight: bold;
+}
+
+/* format content */
+.content {
+  padding: 20px;
+}
+/* end format content */
+
+/* daftar Isi */
+.container .content .pintasan {
+  padding-left: 20px;
+  margin-top: 50px;
+  margin-right: 100px;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 75%);
+}
+.content .pintasan p {
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 10px;
+}
+.content .pintasan ul li {
+  padding-left: 20px;
+}
+.content .pintasan ul li a {
+  text-decoration: none;
+  color: salmon;
+  padding: 5px;
+}
+.content .pintasan ul li a:hover {
+  background-color: skyblue;
+  color: black;
+  padding: 5px;
+  cursor: pointer;
+  transition: color 0.5 ease;
+}
+.content .pintasan ul li .kotak-kesimpulan {
+  padding-bottom: 10px;
+}
+/* end Daftar Isi */
+
+/* format size tulisan Dan sebagainya(content) */
+.content h2 {
+  font-size: 28px;
+  font-weight: bold;
+  padding-top: 50px;
+}
+.content h3 {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+.content h4 {
+  font-size: 17px;
+  font-weight: bold;
+  padding-top: 30px;
+}
+
+.content p {
+  font-size: 15px;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+/* end format size tulisan Dan sebagainya(content) */
+
+/* end up scroll */
+
+/* button quiz */
+.quiz-button {
+  justify-content: center;
+  align-items: center;
+  padding-top: 5rem;
+}
+.btn {
+  font-size: 1.2rem;
+  padding: 2rem 0;
+  width: 10rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  color: rgb(28, 26, 26);
+  background: linear-gradient(90deg, rgb(18, 92, 255) 0%, rgb(0, 102, 255) 100%);
+  border: 4px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(8, 114, 244, 0.6);
+  transition: transform 150ms;
+  transform: scale(1.03);
+}
+
+
+/* footer */
+.footer {
+  background-color: #333;
+  padding: 10px;
+}
+
+.footer .copy {
+  color: #eaeaea;
+  text-align: center;
+  font-size: 12px;
+}
+/* end footer */
+
+/* up-scroll */
+.icon {
+  width: 50px;
+  height: 50px;
+  padding-bottom: -20px;
+}
+
+@media screen and (max-width: 576px) {
+  #HOME {
+    min-width: 480px;
+  }
+}

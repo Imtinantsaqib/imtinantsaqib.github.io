@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+* {
+  font-family: 'ubuntu', sans-serif;
+}
+body {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+.navbar .container a {
+  color: white;
+}
+
+
+.navbar .container a:hover {
+  color: rgb(23, 40, 34);
+  font-weight: 500;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #e2edff;
+}
+
+.jumbotron img:hover {
+  width: 300px;
+  height: 300px;
+  transition-delay: 0.7;
+}
+
+#about .container h2:hover {
+  font-size: 56px;
+  font-weight: bold;
+}
+
+#projects {
+  background-color: #e2edff;
+}
+
+.judul-my {
+  padding-bottom: 10px;
+}
+
+.judul-my:hover {
+  font-size: 56px;
+  font-weight: bold;
+}
+
+.card:hover {
+  width: 376px;
+  height: 538px;
+  transition-delay: 0.3;
+}
+
+.svg {
+  margin-bottom: -3px;
+}
+
+#footer p a {
+  color: white;
+}
+
+#footer p a:hover {
+  color: rgb(23, 40, 34);
+  font-weight: 800;
+}
+
+@media scre

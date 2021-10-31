@@ -1,0 +1,19 @@
+
+body {
+    color: #fff;
+}
+
+.container #highScores {
+    font-weight: 700;
+}
+
+
+#highScoresList {
+    list-style: none;
+    margin-bottom: 4rem;
+}
+
+.high-score {
+    font-size: 2.8rem;
+    margin-bottom: 0.5rem;
+}
